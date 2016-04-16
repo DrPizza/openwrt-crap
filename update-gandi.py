@@ -8,6 +8,8 @@ import subprocess
 ## requires an API key that you can find somewhere on the gandi website.
 ## if the names do not already exist then it will error out. currently expects 
 ## both an A and an AAAA record, and sets them both to the WAN IP.
+## tested on openwrt 15.05.1. needs python3 and a few of the support packages.
+## the only ones I remember xml, openssl, and codecs, but there may be more.
 ## based on https://wuffleton.com/code/gandi-openwrt/
 
 ## Configuration
